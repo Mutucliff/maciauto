@@ -85,7 +85,7 @@ AppAsset::register($this);
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand" href="index.html">
-                            <img class="logo-light" src="dependencies/img/logo-white.webp" alt="logo">
+                            <!-- <img class="logo-light" src="dependencies/img/logo-white.webp" alt="logo"> -->
                             <img class="logo-dark" src="dependencies/img/logo-white.webp" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse main-menu-wrap" id="navbarSupportedContent">
@@ -131,7 +131,7 @@ AppAsset::register($this);
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="about.html" class="nav-link">About Us</a>
+                                            <a href="<?= Yii::$app->urlManager->createUrl(['/site/about'])?>" class="nav-link">About Us</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="#" class="nav-link">
@@ -276,7 +276,7 @@ AppAsset::register($this);
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="contact.html" class="nav-link">Contact</a>
+                                    <a href=" <?= Yii::$app->urlManager->createUrl(['/site/contact'])?>" class="nav-link">Contact</a>
                                 </li>
                                 <li class="nav-item d-lg-none">
                                     <a href="add-listing.html" class="btn-two">Add Listing</a>
