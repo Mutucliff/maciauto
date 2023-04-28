@@ -4,61 +4,10 @@
 
 use yii\helpers\Html;
 
-$this->title = 'Services';
+$this->title = 'Our-team';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Link of CSS files -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/flaticon_motoz.css">
-        <link rel="stylesheet" href="assets/css/remixicon.css">
-        <link rel="stylesheet" href="assets/css/ionicons.min.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="assets/css/odometer.min.css">
-        <link rel="stylesheet" href="assets/css/fancybox.css">
-        <link rel="stylesheet" href="assets/css/aos.css">
-        <link rel="stylesheet" href="assets/css/header.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/footer.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        <link rel="stylesheet" href="assets/css/dark-theme.css">
-        <title>Motoz - Car Dealer & Automotive HTML Template</title>
-        <link rel="icon" type="image/png" href="assets/img/favicon.webp">
-    </head>
-
-    <body>
-
-        <div class="body_overlay"></div>
-
-        <!--Preloader starts-->
-        <div class="loader js-preloader">
-            <svg class="car" width="102" height="40" xmlns="http://www.w3.org/2000/svg">
-            <g transform="translate(2 1)" stroke="#E70D3D" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-                <path class="car__body" d="M47.293 2.375C52.927.792 54.017.805 54.017.805c2.613-.445 6.838-.337 9.42.237l8.381 1.863c2.59.576 6.164 2.606 7.98 4.531l6.348 6.732 6.245 1.877c3.098.508 5.609 3.431 5.609 6.507v4.206c0 .29-2.536 4.189-5.687 4.189H36.808c-2.655 0-4.34-2.1-3.688-4.67 0 0 3.71-19.944 14.173-23.902zM36.5 15.5h54.01" stroke-width="2"/>
-                <ellipse class="car__wheel--left" stroke-width="2.2" fill="#FFF" cx="83.493" cy="30.25" rx="6.922" ry="6.808"/>
-                <ellipse class="car__wheel--right" stroke-width="2.2" fill="#FFF" cx="46.511" cy="30.25" rx="6.922" ry="6.808"/>
-                <path class="car__line car__line--top" d="M22.5 16.5H2.475" stroke-width="2"/>
-                <path class="car__line car__line--middle" d="M20.5 23.5H.4755" stroke-width="2"/>
-                <path class="car__line car__line--bottom" d="M25.5 9.5h-19" stroke-width="2"/>
-            </g>
-            </svg>
-        </div> 
-        <!--Preloader ends-->
-
-        <!-- Theme Switcher Start -->
-        <div class="switch-theme-mode">
-            <label id="switch" class="switch">
-                    <input type="checkbox" onchange="toggleTheme()" id="slider">
-                    <span class="slider round"></span>
-            </label>
-        </div>
-        <!-- Theme Switcher End -->
-
-        <!-- Header Section Start -->
-        <header class="header-wrap header-one">
+<header class="header-wrap header-one">
             <div class="header-top">
                 <div class="container">
                     <div class="row align-items-center">
@@ -184,13 +133,13 @@ $this->params['breadcrumbs'][] = $this->title;
                                             </ul>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link active">
+                                            <a href="#" class="nav-link">
                                                 Services
                                                 <i class="flaticon-down-arrow"></i>
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item">
-                                                    <a href="services.html" class="nav-link active">Our Services</a>
+                                                    <a href="services.html" class="nav-link">Our Services</a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a href="service-details.html" class="nav-link">Service Details</a>
@@ -215,7 +164,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                             <a href="team.html" class="nav-link">Our Team</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="calculator.html" class="nav-link">Calculator</a>
+                                            <a href="calculator.html" class="nav-link active">Calculator</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="faq.html" class="nav-link">FAQ</a>
@@ -238,7 +187,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                     </ul>
                                 </li>
                                 <li class="nav-item has-child">
-                                    <a href="#" class="nav-link">
+                                    <a href="#" class="nav-link"> 
                                         Shop
                                         <i class="flaticon-down-arrow"></i>
                                     </a>
@@ -302,7 +251,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                                     <a href="blog-details-left-sidebar.html" class="nav-link">Blog Details Left Sidebar</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="blog-details-right-sidebar.html" class="nav-link active">Blog Details Right Sidebar</a>
+                                                    <a href="blog-details-right-sidebar.html" class="nav-link">Blog Details Right Sidebar</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -362,7 +311,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     </li>
                     <li>
                         <b>Email:</b>
-                        <a href="https://templates.hibotheme.com/cdn-cgi/l/email-protection#89e1ece5e5e6c9e4e6fde6f3a7eae6e4"><span class="__cf_email__" data-cfemail="1a727f7676755a77756e756034797577">[email&#160;protected]</span></a>
+                        <a href="https://templates.hibotheme.com/cdn-cgi/l/email-protection#ddb5b8b1b1b29db0b2a9b2a7f3beb2b0"><span class="__cf_email__" data-cfemail="90f8f5fcfcffd0fdffe4ffeabef3fffd">[email&#160;protected]</span></a>
                     </li>
                 </ul>
                 <ul class="social-profile list-style">
@@ -395,130 +344,68 @@ $this->params['breadcrumbs'][] = $this->title;
         <!-- Header Section End -->  
 
         <!-- Breadcrumb Start -->
-        <div class="breadcrumb-wrap br-8  bg-f">
+        <div class="breadcrumb-wrap br-18 bg-f">
             <div class="container">
                 <div class="breadcrumb-title">
-                    <h2>Our Services</h2>
+                    <h2>Calculator</h2>
                     <ul class="breadcrumb-menu list-style">
                         <li><a href="index.html">Home </a></li>
-                        <li>Service</li>
+                        <li>Calculator</li>
                     </ul>
                 </div>
             </div>
         </div>
         <!-- Breadcrumb End -->
 
-        <!-- Service Section Start -->
-        <div class="service-wrap ptb-100">
+        <!-- Calculator Section start -->
+        <div class="calculator-wrap ptb-100">
             <div class="container">
                 <div class="row">
-                    <div class="section-title-two text-center mb-40">
-                        <span>Our Services</span>
-                        <h2>Services We Offer For You</h2>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <img src="assets/img/services/service-1.webp" alt="Image">
-                            </div>
-                            <div class="service-info">
-                                <span class="service-icon">
-                                    <i class="flaticon-van"></i>
-                                </span>
-                                <h3><a href="service-details.html">Engine & Transmission</a></h3>
-                                <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
-                                <a href="service-details.html" class="link-one">Read More</a>
-                            </div>
+                    <div class="col-xl-8 col-lg-7">
+                        <div class="calculator-box">
+                            <h3>Financing Calculator</h3>
+                            <form action="#" class="finance-calculator">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <input type="number" placeholder="$ Price">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="number" placeholder="% Rate">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="number" placeholder="Loan Term Year">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea name="" id="" cols="30" rows="10" placeholder="$ Download Payment"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn-two" type="submit">Calculate Now</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <img src="assets/img/services/service-2.webp" alt="Image">
-                            </div>
-                            <div class="service-info">
-                                <span class="service-icon">
-                                    <i class="flaticon-hand-gesture"></i>
-                                </span>
-                                <h3><a href="service-details.html">Brake Service & Repair</a></h3>
-                                <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
-                                <a href="service-details.html" class="link-one">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <img src="assets/img/services/service-3.webp" alt="Image">
-                            </div>
-                            <div class="service-info">
-                                <span class="service-icon">
-                                    <i class="flaticon-technical-support"></i>
-                                </span>
-                                <h3><a href="service-details.html">Heating & AC Repairs</a></h3>
-                                <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
-                                <a href="service-details.html" class="link-one">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <img src="assets/img/services/service-4.webp" alt="Image">
-                            </div>
-                            <div class="service-info">
-                                <span class="service-icon">
-                                    <i class="flaticon-drive-thru"></i>
-                                </span>
-                                <h3><a href="service-details.html">Brake Checkup</a></h3>
-                                <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
-                                <a href="service-details.html" class="link-one">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <img src="assets/img/services/service-5.webp" alt="Image">
-                            </div>
-                            <div class="service-info">
-                                <span class="service-icon">
-                                    <i class="flaticon-car"></i>
-                                </span>
-                                <h3><a href="service-details.html">Securiy Inspection</a></h3>
-                                <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
-                                <a href="service-details.html" class="link-one">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <img src="assets/img/services/service-6.webp" alt="Image">
-                            </div>
-                            <div class="service-info">
-                                <span class="service-icon">
-                                    <i class="flaticon-gear-1"></i>
-                                </span>
-                                <h3><a href="service-details.html">Engine Upgrades</a></h3>
-                                <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
-                                <a href="service-details.html" class="link-one">Read More</a>
-                            </div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="calculator-bg">
+                            <img src="assets/img/bg-2.webp" alt="Image">
+                            <a class="play-now" data-fancybox="" href="https://www.youtube.com/watch?v=BJoVxpAZb_E">
+                                <ion-icon name="play"></ion-icon>
+                                <span class="ripple"></span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <ul class="page-nav list-style">
-                    <li><a href="services.html"><i class="flaticon-left-arrow"></i></a></li>
-                    <li><a class="active" href="services.html">1</a></li>
-                    <li><a href="services.html">2</a></li>
-                    <li><a href="services.html">3</a></li>
-                    <li><a href="services.html"><i class="flaticon-next"></i></a></li>
-                </ul>
             </div>
         </div>
-        <!-- Service Section End -->
+        <!-- Calculator Section End -->
 
         <!-- App Section Start -->
         <div class="app-wrap">

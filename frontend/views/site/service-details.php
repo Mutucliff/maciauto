@@ -4,61 +4,10 @@
 
 use yii\helpers\Html;
 
-$this->title = 'Services';
+$this->title = 'Service-details';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Link of CSS files -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/flaticon_motoz.css">
-        <link rel="stylesheet" href="assets/css/remixicon.css">
-        <link rel="stylesheet" href="assets/css/ionicons.min.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="assets/css/odometer.min.css">
-        <link rel="stylesheet" href="assets/css/fancybox.css">
-        <link rel="stylesheet" href="assets/css/aos.css">
-        <link rel="stylesheet" href="assets/css/header.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/footer.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        <link rel="stylesheet" href="assets/css/dark-theme.css">
-        <title>Motoz - Car Dealer & Automotive HTML Template</title>
-        <link rel="icon" type="image/png" href="assets/img/favicon.webp">
-    </head>
-
-    <body>
-
-        <div class="body_overlay"></div>
-
-        <!--Preloader starts-->
-        <div class="loader js-preloader">
-            <svg class="car" width="102" height="40" xmlns="http://www.w3.org/2000/svg">
-            <g transform="translate(2 1)" stroke="#E70D3D" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-                <path class="car__body" d="M47.293 2.375C52.927.792 54.017.805 54.017.805c2.613-.445 6.838-.337 9.42.237l8.381 1.863c2.59.576 6.164 2.606 7.98 4.531l6.348 6.732 6.245 1.877c3.098.508 5.609 3.431 5.609 6.507v4.206c0 .29-2.536 4.189-5.687 4.189H36.808c-2.655 0-4.34-2.1-3.688-4.67 0 0 3.71-19.944 14.173-23.902zM36.5 15.5h54.01" stroke-width="2"/>
-                <ellipse class="car__wheel--left" stroke-width="2.2" fill="#FFF" cx="83.493" cy="30.25" rx="6.922" ry="6.808"/>
-                <ellipse class="car__wheel--right" stroke-width="2.2" fill="#FFF" cx="46.511" cy="30.25" rx="6.922" ry="6.808"/>
-                <path class="car__line car__line--top" d="M22.5 16.5H2.475" stroke-width="2"/>
-                <path class="car__line car__line--middle" d="M20.5 23.5H.4755" stroke-width="2"/>
-                <path class="car__line car__line--bottom" d="M25.5 9.5h-19" stroke-width="2"/>
-            </g>
-            </svg>
-        </div> 
-        <!--Preloader ends-->
-
-        <!-- Theme Switcher Start -->
-        <div class="switch-theme-mode">
-            <label id="switch" class="switch">
-                    <input type="checkbox" onchange="toggleTheme()" id="slider">
-                    <span class="slider round"></span>
-            </label>
-        </div>
-        <!-- Theme Switcher End -->
-
-        <!-- Header Section Start -->
-        <header class="header-wrap header-one">
+ <header class="header-wrap header-one">
             <div class="header-top">
                 <div class="container">
                     <div class="row align-items-center">
@@ -190,10 +139,10 @@ $this->params['breadcrumbs'][] = $this->title;
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item">
-                                                    <a href="services.html" class="nav-link active">Our Services</a>
+                                                    <a href="services.html" class="nav-link ">Our Services</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="service-details.html" class="nav-link">Service Details</a>
+                                                    <a href="service-details.html" class="nav-link active">Service Details</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -362,7 +311,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     </li>
                     <li>
                         <b>Email:</b>
-                        <a href="https://templates.hibotheme.com/cdn-cgi/l/email-protection#89e1ece5e5e6c9e4e6fde6f3a7eae6e4"><span class="__cf_email__" data-cfemail="1a727f7676755a77756e756034797577">[email&#160;protected]</span></a>
+                        <a href="https://templates.hibotheme.com/cdn-cgi/l/email-protection#1b737e7777745b76746f746135787476"><span class="__cf_email__" data-cfemail="3058555c5c5f705d5f445f4a1e535f5d">[email&#160;protected]</span></a>
                     </li>
                 </ul>
                 <ul class="social-profile list-style">
@@ -395,127 +344,263 @@ $this->params['breadcrumbs'][] = $this->title;
         <!-- Header Section End -->  
 
         <!-- Breadcrumb Start -->
-        <div class="breadcrumb-wrap br-8  bg-f">
+        <div class="breadcrumb-wrap br-7 bg-f">
             <div class="container">
                 <div class="breadcrumb-title">
-                    <h2>Our Services</h2>
+                    <h2>Service Details</h2>
                     <ul class="breadcrumb-menu list-style">
                         <li><a href="index.html">Home </a></li>
-                        <li>Service</li>
+                        <li><a href="services.html">Services</a></li>
+                        <li>Service Details</li>
                     </ul>
                 </div>
             </div>
         </div>
         <!-- Breadcrumb End -->
 
+        <!-- Service Details section Start -->
+        <section class="service-details-wrap ptb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-12 order-xl-1 order-lg-2 order-md-2 order-2">
+                        <div class="sidebar">
+                            <div class="sidebar-widget-two">
+                                <ul class="category-box-one list-style">
+                                    <li>
+                                        <a href="services.html">
+                                           Brake Service & Repair
+                                            <i class="flaticon-next"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html"  class="active">
+                                            Engine & Transmission
+                                            <i class="flaticon-next"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">
+                                            Heating & AC Repair
+                                            <i class="flaticon-next"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">
+                                           Engine Upgrades
+                                            <i class="flaticon-next"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">
+                                            Securoty Inspection
+                                            <i class="flaticon-next"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">
+                                            Engine Oil Change
+                                            <i class="flaticon-next"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sidebar-widget-one contact-widget">
+                                <h3 class="sidebar-widget-one-title">Get In Touch</h3>
+                                <form id="contactForm">
+                                    <div class="form-group">
+                                        <input type="text" name="name" placeholder="Full Name" id="name"
+                                            required data-error="Please enter your name">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="email" id="email" required
+                                            placeholder="Email Address" data-error="Please enter your email">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group v1">
+                                        <textarea name="message" id="message" placeholder="Your Messages.." cols="30" rows="10" required data-error="Please enter your message"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <button type="submit" class="btn-two w-100 d-block">Send Your Message</button>
+                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+                            <div class="sidebar-widget-one">
+                                <h3 class="sidebar-widget-one-title">Top Services</h3>
+                                <ul class="category-box-two list-style">
+                                    <li>
+                                        <a href="services.html">
+                                            Auto Dealing
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">
+                                            Car News
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">
+                                            Car Reviews
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">
+                                            Classic Cars
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">
+                                           Top Brands
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-12 order-xl-2 order-lg-1 order-md-1 order-1">
+                        <div class="service-desc">
+                            <h2>Engine & Transmission</h2>
+                            <p>Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <div class="single-service-img mt-4">
+                                <img src="assets/img/services/single-service-1.webp" alt="Image">
+                                <a class="play-now" data-fancybox="" href="https://www.youtube.com/watch?v=BJoVxpAZb_E">
+                                    <ion-icon name="play"></ion-icon>
+                                    <span class="ripple"></span>
+                                </a>
+                            </div>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages.</p>
+                            <ul class="single-listing-features list-style">
+                                <li>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidu</li>
+                                <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</li>
+                                <li>Eirmod tempor invidu nt ut labore et dolore magna aliquyam erat</li>
+                                <li>Diam nonumy eirmod tempor invidu nt ut labore et</li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a class="single-service-img" data-fancybox="gallery" href="assets/img/services/single-service-2.webp">
+                                        <img src="assets/img/services/single-service-2.webp" alt="Image">
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="single-service-img" data-fancybox="gallery" href="assets/img/services/single-service-3.webp">
+                                        <img src="assets/img/services/single-service-3.webp" alt="Image">
+                                    </a>
+                                </div>
+                            </div>
+                            <p>Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+                            <ol>
+                                <li>Lorem ipsum dolor sit consectetur adipiscing elitdiam nonumy eirmod tempor.</li>
+                                <li>Advisory membership elitr, sed diam nonumy eirmod tempor.</li>
+                                <li>If you do not have enough time, you will always be able.</li>
+                                <li>Irmad temporarily involved labor and doll magna alicum erat.</li>
+                                <li>Labor and love magna aliquam irat valupatua.</li>
+                            </ol>
+                            <h3>What You Will Get From This Service</h3>
+                            <p>Amet consectetur adipisicing elit. Mollitia excepturi eaque, corporis nulla maxime inventore magni repreh enderit lorem ipsum dolor sit consequatur deserunt, eligendi totam voluptas natus. Quaerat neque nisi voluptatum.</p>
+                            <ul class="content-feature-list style1 list-style mb-0">
+                                <li><i class="ri-check-double-line"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod tempor.</li>
+                                <li><i class="ri-check-double-line"></i>Advisory membership elitr, sed diam nonumy eirmod tempor invidunt ut labor et dolore magna.</li>
+                                <li><i class="ri-check-double-line"></i>If you do not have enough time, you will always be able to work and do what you want.</li>
+                                <li><i class="ri-check-double-line"></i>Irmad temporarily involved labor and doll magna alicum erat, sed diam voluptua. Vero Eos and accused.</li>
+                                <li><i class="ri-check-double-line"></i>Labor and Love Magna Aliquam Irat, Sed Diam Valupatua. Vero eos et accusam.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Service Details section end -->
+
         <!-- Service Section Start -->
-        <div class="service-wrap ptb-100">
+        <div class="service-wrap pb-100">
             <div class="container">
                 <div class="row">
                     <div class="section-title-two text-center mb-40">
-                        <span>Our Services</span>
+                        <span>Related Services</span>
                         <h2>Services We Offer For You</h2>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <img src="assets/img/services/service-1.webp" alt="Image">
-                            </div>
-                            <div class="service-info">
-                                <span class="service-icon">
-                                    <i class="flaticon-van"></i>
-                                </span>
-                                <h3><a href="service-details.html">Engine & Transmission</a></h3>
-                                <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
-                                <a href="service-details.html" class="link-one">Read More</a>
-                            </div>
+                <div class="service-slider owl-carousel">
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="assets/img/services/service-1.webp" alt="Image">
+                        </div>
+                        <div class="service-info">
+                            <span class="service-icon">
+                                <i class="flaticon-van"></i>
+                            </span>
+                            <h3><a href="service-details.html">Engine & Transmission</a></h3>
+                            <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
+                            <a href="service-details.html" class="link-one">Read More</a>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <img src="assets/img/services/service-2.webp" alt="Image">
-                            </div>
-                            <div class="service-info">
-                                <span class="service-icon">
-                                    <i class="flaticon-hand-gesture"></i>
-                                </span>
-                                <h3><a href="service-details.html">Brake Service & Repair</a></h3>
-                                <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
-                                <a href="service-details.html" class="link-one">Read More</a>
-                            </div>
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="assets/img/services/service-2.webp" alt="Image">
+                        </div>
+                        <div class="service-info">
+                            <span class="service-icon">
+                                <i class="flaticon-hand-gesture"></i>
+                            </span>
+                            <h3><a href="service-details.html">Brake Service & Repair</a></h3>
+                            <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
+                            <a href="service-details.html" class="link-one">Read More</a>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <img src="assets/img/services/service-3.webp" alt="Image">
-                            </div>
-                            <div class="service-info">
-                                <span class="service-icon">
-                                    <i class="flaticon-technical-support"></i>
-                                </span>
-                                <h3><a href="service-details.html">Heating & AC Repairs</a></h3>
-                                <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
-                                <a href="service-details.html" class="link-one">Read More</a>
-                            </div>
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="assets/img/services/service-3.webp" alt="Image">
+                        </div>
+                        <div class="service-info">
+                            <span class="service-icon">
+                                <i class="flaticon-technical-support"></i>
+                            </span>
+                            <h3><a href="service-details.html">Heating & AC Repairs</a></h3>
+                            <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
+                            <a href="service-details.html" class="link-one">Read More</a>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <img src="assets/img/services/service-4.webp" alt="Image">
-                            </div>
-                            <div class="service-info">
-                                <span class="service-icon">
-                                    <i class="flaticon-drive-thru"></i>
-                                </span>
-                                <h3><a href="service-details.html">Brake Checkup</a></h3>
-                                <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
-                                <a href="service-details.html" class="link-one">Read More</a>
-                            </div>
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="assets/img/services/service-4.webp" alt="Image">
+                        </div>
+                        <div class="service-info">
+                            <span class="service-icon">
+                                <i class="flaticon-drive-thru"></i>
+                            </span>
+                            <h3><a href="service-details.html">Brake Checkup</a></h3>
+                            <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
+                            <a href="service-details.html" class="link-one">Read More</a>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <img src="assets/img/services/service-5.webp" alt="Image">
-                            </div>
-                            <div class="service-info">
-                                <span class="service-icon">
-                                    <i class="flaticon-car"></i>
-                                </span>
-                                <h3><a href="service-details.html">Securiy Inspection</a></h3>
-                                <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
-                                <a href="service-details.html" class="link-one">Read More</a>
-                            </div>
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="assets/img/services/service-5.webp" alt="Image">
+                        </div>
+                        <div class="service-info">
+                            <span class="service-icon">
+                                <i class="flaticon-car"></i>
+                            </span>
+                            <h3><a href="service-details.html">Securiy Inspection</a></h3>
+                            <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
+                            <a href="service-details.html" class="link-one">Read More</a>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <img src="assets/img/services/service-6.webp" alt="Image">
-                            </div>
-                            <div class="service-info">
-                                <span class="service-icon">
-                                    <i class="flaticon-gear-1"></i>
-                                </span>
-                                <h3><a href="service-details.html">Engine Upgrades</a></h3>
-                                <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
-                                <a href="service-details.html" class="link-one">Read More</a>
-                            </div>
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="assets/img/services/service-6.webp" alt="Image">
+                        </div>
+                        <div class="service-info">
+                            <span class="service-icon">
+                                <i class="flaticon-gear-1"></i>
+                            </span>
+                            <h3><a href="service-details.html">Engine Upgrades</a></h3>
+                            <p>Lorem Ipsum has been the industry sta dummy text ever since the dolor when an unknown printer took a galley of type dolore magna aliqua.</p>
+                            <a href="service-details.html" class="link-one">Read More</a>
                         </div>
                     </div>
                 </div>
-                <ul class="page-nav list-style">
-                    <li><a href="services.html"><i class="flaticon-left-arrow"></i></a></li>
-                    <li><a class="active" href="services.html">1</a></li>
-                    <li><a href="services.html">2</a></li>
-                    <li><a href="services.html">3</a></li>
-                    <li><a href="services.html"><i class="flaticon-next"></i></a></li>
-                </ul>
             </div>
         </div>
         <!-- Service Section End -->
@@ -546,4 +631,4 @@ $this->params['breadcrumbs'][] = $this->title;
                 </div>
             </div>
         </div>
-        <!-- App Section End -->
+        <!-- App Section End --> 

@@ -149,6 +149,29 @@ class SiteController extends Controller
     {
         return $this->render('contact');
     }
+    public function actionServives()
+    {
+        return $this->render('services');
+    }
+    public function actionServicedetails()
+    {
+        return $this->render('our-services');
+    }
+    public function actionOurservices()
+    {
+        return $this->render('service-details');
+    }
+    public function actionOurteam()
+    {
+        return $this->render('our-team');
+    }
+    public function actioCalculator()
+    {
+        return $this->render('calculator');
+    }
+
+
+
 
     /**
      * Signs user up.

@@ -27,11 +27,11 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="row align-items-center gx-5">
                     <div class="col-lg-6">
                         <div class="about-img-wrap">
-                            <img src="dependencies/img/about/about-shape-1.webp" alt="Image" class="about-shape-one bounce">
-                            <img src="dependencies/img/about/about-img-1.webp" alt="Image" class="about-img-one">
-                            <img src="dependencies/img/about/about-img-2.webp" alt="Image" class="about-img-two">
+                            <img src="assets/img/about/about-shape-1.webp" alt="Image" class="about-shape-one bounce">
+                            <img src="assets/img/about/about-img-1.webp" alt="Image" class="about-img-one">
+                            <img src="assets/img/about/about-img-2.webp" alt="Image" class="about-img-two">
                             <div class="about-promo-box">
-                                <img src="dependencies/img/icon/about-icon.svg" alt="Image">
+                                <img src="assets/img/icon/about-icon.svg" alt="Image">
                                 <h2><span>30+</span>Years Experience</h2>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="brand-slider-two owl-carousel">
                     <div class="brand-card-two">
                         <div class="brand-logo">
-                            <img src="dependencies/img/dealer/dealer-2.webp" alt="Image">
+                            <img src="assets/img/dealer/dealer-2.webp" alt="Image">
                         </div>
                         <div class="brand-info">
                             <h3><a href="dealers.html">Knowza</a></h3>
@@ -115,7 +115,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     </div>
                     <div class="brand-card-two">
                         <div class="brand-logo">
-                            <img src="dependencies/img/dealer/dealer-4.webp" alt="Image">
+                            <img src="assets/img/dealer/dealer-4.webp" alt="Image">
                         </div>
                         <div class="brand-info">
                             <h3><a href="dealers.html">Formonix</a></h3>
@@ -128,7 +128,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     </div>
                     <div class="brand-card-two">
                         <div class="brand-logo">
-                            <img src="dependencies/img/dealer/dealer-7.webp" alt="Image">
+                            <img src="assets/img/dealer/dealer-7.webp" alt="Image">
                         </div>
                         <div class="brand-info">
                             <h3><a href="dealers.html">Rentoor</a></h3>
@@ -141,7 +141,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     </div>
                     <div class="brand-card-two">
                         <div class="brand-logo">
-                            <img src="dependencies/img/dealer/dealer-6.webp" alt="Image">
+                            <img src="assets/img/dealer/dealer-6.webp" alt="Image">
                         </div>
                         <div class="brand-info">
                             <h3><a href="dealers.html">Kiddily</a></h3>
@@ -154,7 +154,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     </div>
                     <div class="brand-card-two">
                         <div class="brand-logo">
-                            <img src="dependencies/img/dealer/dealer-1.webp" alt="Image">
+                            <img src="assets/img/dealer/dealer-1.webp" alt="Image">
                         </div>
                         <div class="brand-info">
                             <h3><a href="dealers.html">Hundai</a></h3>
@@ -234,7 +234,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="testimonial-card-three">
                     <div class="client-info-wrap">
                         <div class="client-img">
-                            <img src="dependencies/img/clients/client-4.webp" alt="Image">
+                            <img src="assets/img/clients/client-4.webp" alt="Image">
                         </div>
                         <div class="client-info">
                             <h3>Rosaline Willium</h3>
@@ -254,7 +254,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="client-info-area">
                         <div class="client-info-wrap">
                             <div class="client-img">
-                                <img src="dependencies/img/clients/client-6.webp" alt="Image">
+                                <img src="assets/img/clients/client-6.webp" alt="Image">
                             </div>
                             <div class="client-info">
                                 <h3>Miranda Halim</h3>
@@ -275,7 +275,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="client-info-area">
                         <div class="client-info-wrap">
                             <div class="client-img">
-                                <img src="dependencies/img/clients/client-1.webp" alt="Image">
+                                <img src="assets/img/clients/client-1.webp" alt="Image">
                             </div>
                             <div class="client-info">
                                 <h3>Kate Stewart</h3>
@@ -296,7 +296,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="client-info-area">
                         <div class="client-info-wrap">
                             <div class="client-img">
-                                <img src="dependencies/img/clients/client-5.webp" alt="Image">
+                                <img src="assets/img/clients/client-5.webp" alt="Image">
                             </div>
                             <div class="client-info">
                                 <h3>Kilian Anderson</h3>
@@ -317,7 +317,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="client-info-area">
                         <div class="client-info-wrap">
                             <div class="client-img">
-                                <img src="dependencies/img/clients/client-3.webp" alt="Image">
+                                <img src="assets/img/clients/client-3.webp" alt="Image">
                             </div>
                             <div class="client-info">
                                 <h3>Damble Browni</h3>
@@ -338,7 +338,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="client-info-area">
                         <div class="client-info-wrap">
                             <div class="client-img">
-                                <img src="dependencies/img/clients/client-2.webp" alt="Image">
+                                <img src="assets/img/clients/client-2.webp" alt="Image">
                             </div>
                             <div class="client-info">
                                 <h3>Dunald Zilani</h3>
@@ -362,14 +362,14 @@ $this->params['breadcrumbs'][] = $this->title;
         
         <!-- FAQ Section start -->
         <section class="faq-wrap ptb-100">
-            <img src="dependencies/img/faq-shape-1.webp" alt="Image" class="faq-shape-one bounce">
-            <img src="dependencies/img/faq-shape-2.webp" alt="Image" class="faq-shape-two animationFramesTwo">
+            <img src="assets/img/faq-shape-1.webp" alt="Image" class="faq-shape-one bounce">
+            <img src="assets/img/faq-shape-2.webp" alt="Image" class="faq-shape-two animationFramesTwo">
             <div class="container">
                 <div class="row align-items-center gx-5">
                     <div class="col-lg-6">
                         <div class="faq-img-wrap">
-                            <img src="dependencies/img/city/faq-img-1.webp" alt="Image" class="faq-img-one">
-                            <img src="dependencies/img/city/faq-img-2.webp" alt="Image" class="faq-img-two">
+                            <img src="assets/img/city/faq-img-1.webp" alt="Image" class="faq-img-one">
+                            <img src="assets/img/city/faq-img-2.webp" alt="Image" class="faq-img-two">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -471,8 +471,8 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="app-wrap">
             <div class="container">
                 <div class="app-box bg_ash">
-                    <img src="dependencies/img/app/app-shape-1.webp" alt="Image" class="app-shape-one">
-                    <img src="dependencies/img/app/app-shape-2.webp" alt="Image" class="app-shape-two">
+                    <img src="assets/img/app/app-shape-1.webp" alt="Image" class="app-shape-one">
+                    <img src="assets/img/app/app-shape-2.webp" alt="Image" class="app-shape-two">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="app-content">
@@ -482,14 +482,14 @@ $this->params['breadcrumbs'][] = $this->title;
                                     <p>It is a long established fact that reader will be distracted by the dolore</p>
                                 </div>
                                 <div class="app-btn">
-                                    <a href="index.html"><img src="dependencies/img/icon/google-play.webp" alt="Image">
+                                    <a href="index.html"><img src="assets/img/icon/google-play.webp" alt="Image">
                                         GET IT ON <span>Google Play</span></a>
-                                    <a href="index.html"><img src="dependencies/img/icon/apple-store.webp" alt="Image">Download on The <span>App Store</span></a>
+                                    <a href="index.html"><img src="assets/img/icon/apple-store.webp" alt="Image">Download on The <span>App Store</span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <img src="dependencies/img/app/app.webp" alt="Image" class="app-img">
+                    <img src="assets/img/app/app.webp" alt="Image" class="app-img">
                 </div>
             </div>
         </div>

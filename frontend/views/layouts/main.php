@@ -151,16 +151,16 @@ AppAsset::register($this);
                                             </ul>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">
+                                            <a href="<?= Yii::$app->urlManager->createUrl(['/site/services'])?>" class="nav-link">
                                                 Services
                                                 <i class="flaticon-down-arrow"></i>
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item">
-                                                    <a href="services.html" class="nav-link">Our Services</a>
+                                                    <a href="<?= Yii::$app->urlManager->createUrl(['/site/our-services'])?>" class="nav-link">Our Services</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="service-details.html" class="nav-link">Service Details</a>
+                                                    <a href="<?= Yii::$app->urlManager->createUrl(['/site/service-details'])?>" class="nav-link">Service-Details</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -179,10 +179,10 @@ AppAsset::register($this);
                                             </ul>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="team.html" class="nav-link">Our Team</a>
+                                            <a href="<?= Yii::$app->urlManager->createUrl(['/site/our-team'])?>" class="nav-link">Our Team</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="calculator.html" class="nav-link">Calculator</a>
+                                            <a href="<?= Yii::$app->urlManager->createUrl(['/site/calculator'])?>" class="nav-link">Calculator</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="faq.html" class="nav-link">FAQ</a>
