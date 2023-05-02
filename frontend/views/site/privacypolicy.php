@@ -4,10 +4,11 @@
 
 use yii\helpers\Html;
 
-$this->title = 'Our-team';
+$this->title = 'Privacypolicy';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<header class="header-wrap header-one">
+ <!-- Header Section Start -->
+ <header class="header-wrap header-one">
             <div class="header-top">
                 <div class="container">
                     <div class="row align-items-center">
@@ -67,8 +68,8 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand" href="index.html">
-                            <img class="logo-light" src="assets/img/logo-white.webp" alt="logo">
-                            <img class="logo-dark" src="assets/img/logo-white.webp" alt="logo">
+                            <img class="logo-light" src="dependencies/img/logo-white.webp" alt="logo">
+                            <img class="logo-dark" src="dependencies/img/logo-white.webp" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse main-menu-wrap" id="navbarSupportedContent">
                             <div class="menu-close d-lg-none">
@@ -161,7 +162,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                             </ul>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="team.html" class="nav-link active">Our Team</a>
+                                            <a href="team.html" class="nav-link">Our Team</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="calculator.html" class="nav-link">Calculator</a>
@@ -179,7 +180,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                             <a href="terms-of-service.html" class="nav-link">Terms of Service</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
+                                            <a href="privacy-policy.html" class="nav-link active">Privacy Policy</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="error-404.html" class="nav-link">404 Error Page</a>
@@ -296,7 +297,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <button type="button" class="close-popup"> <i class="ri-close-fill"></i> </button>
                 <div class="comp-logo">
                     <a href="index.html"> 
-                        <img src="assets/img/logo-white.webp" alt="Image">
+                        <img src="dependencies/img/logo-white.webp" alt="Image">
                     </a>
                 </div>
                 <p class="comp-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
@@ -311,7 +312,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     </li>
                     <li>
                         <b>Email:</b>
-                        <a href="https://templates.hibotheme.com/cdn-cgi/l/email-protection#355d5059595a75585a415a4f1b565a58"><span class="__cf_email__" data-cfemail="7018151c1c1f301d1f041f0a5e131f1d">[email&#160;protected]</span></a>
+                        <a href="https://templates.hibotheme.com/cdn-cgi/l/email-protection#83ebe6efefecc3eeecf7ecf9ade0ecee"><span class="__cf_email__" data-cfemail="9af2fff6f6f5daf7f5eef5e0b4f9f5f7">[email&#160;protected]</span></a>
                     </li>
                 </ul>
                 <ul class="social-profile list-style">
@@ -341,4 +342,109 @@ $this->params['breadcrumbs'][] = $this->title;
                 </div>
             </div>
         </div>
-        <!-- Header Section End -->
+        <!-- Header Section End -->  
+
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap br-12 bg-f">
+            <div class="container">
+                <div class="breadcrumb-title">
+                    <h2>Privacy Policy</h2>
+                    <ul class="breadcrumb-menu list-style">
+                        <li><a href="index.html">Home </a></li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+
+        <!-- Privacy Policy Section start -->
+        <section class="terms-wrap pt-100 pb-100">
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-lg-12">
+                        <div class="single-terms">
+                            <h3>Information Collection</h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nulla minus quasi. Voluptatem, <a href="index.html">company name</a> saepe ullam autem magni quod sint tempore, eius molestias aliquam debitis. Neque saepe dignissimos repudiandae fuga.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil eveniet quas dignissimos <strong>activities</strong> ea pariatur corrupti rerum deserunt, ipsum, ipsa eos veniam aspernatur fuga, optio soluta? Libero neque reiciendis cupiditate dolores nam. Earum eius similique sapiente. Iure, sit non. At fuga ipsam veniam.
+                            </p>
+                        </div>
+                        <div class="single-terms">
+                            <h3>How We Use Cookies</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil eveniet quas dignissimos doloribus ea pariatur corrupti rerum deserunt, ipsum, ipsa eos veniam aspernatur fuga, optio soluta? Libero neque reiciendis cupiditate dolores nam. Earum eius similique sapiente. Iure, sit non. At fuga ipsam veniam.</p>
+                            <ul class="content-feature-list style1 list-style">
+                                <li><i class="ri-check-double-line"></i>Lorem ipsum dolor, sit amet.</li>
+                                <li><i class="ri-check-double-line"></i>Amet consectetur adipisicing elit.
+                                    Officia, odit!</li>
+                                <li><i class="ri-check-double-line"></i>Aquaerat ipsa quis possimus.</li>
+                                <li><i class="ri-check-double-line"></i>Lorem, ipsum dolor sit amet
+                                    consectetur adipi.</li>
+                                <li><i class="ri-check-double-line"></i>Consectetur adipisicing elit.
+                                    Voluptatibus, dignissimos.</li>
+                                <li><i class="ri-check-double-line"></i>Highly professional administration.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="single-terms">
+                            <h3>The Collection, Process, and Use of Personal Data</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nulla minus quasi. Voluptatem, facilis saepe ullam autem magni quod sint tempore, eius molestias aliquam debitis. Neque saepe dignissimos repudiandae fuga.</p>
+                        </div>
+                        <div class="single-terms">
+                            <h3>Data Protection</h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nulla minus quasi. Voluptatem, company name saepe ullam autem magni quod sint tempore, eius molestias aliquam debitis. Neque saepe dignissimos repudiandae fuga.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil eveniet quas dignissimos <strong>aspernatur</strong> ea pariatur corrupti rerum deserunt, ipsum, ipsa eos veniam aspernatur fuga, optio soluta? Libero neque reiciendis cupiditate dolores nam. Earum eius similique sapiente. Iure, sit non. At fuga ipsam veniam.
+                            </p>
+                        </div>
+                        <div class="single-terms">
+                            <h3>The Collection, Process and Use of Personal Data</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, quod. Ratione ex delectus quis tenetur odio non alias numquam official ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, laborum.</p>
+                            <ol>
+                                <li>Mauris ut in vestibulum hasellus ultrices fusce nibh justo, venenatis, amet. Lectus quam in lobortis.</li>
+                                <li>Consectetur phasellus <strong>ultrices</strong> fusce nibh justo, venenatis, amet. Lectus quam in lobortis justo venenatis amet.</li>
+                                <li>Lectus quam there are two thing is very important in Consectetur phasellus ultrices fusce nibh justo, venenatis, amet in lobortis.</li>
+                                <li>Web Development very creative to do something , mauris ut in vestibulum.</li>
+                            </ol>
+                        </div>
+                        <div class="single-terms">
+                            <h3>Our Policy For Age Under 18</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nulla minus quasi. Voluptatem, facilis saepe ullam autem magni quod sint tempore, eius molestias aliquam debitis. Neque saepe dignissimos repudiandae fuga.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Privacy Policy Section end -->
+
+        <!-- App Section Start -->
+        <div class="app-wrap">
+            <div class="container">
+                <div class="app-box bg_ash">
+                    <img src="dependencies/img/app/app-shape-1.webp" alt="Image" class="app-shape-one">
+                    <img src="dependencies/img/app/app-shape-2.webp" alt="Image" class="app-shape-two">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="app-content">
+                                <div class="content-title-two">
+                                    <span>Our App</span>
+                                    <h2>Download Motoz App For Free!</h2>
+                                    <p>It is a long established fact that reader will be distracted by the dolore</p>
+                                </div>
+                                <div class="app-btn">
+                                    <a href="index.html"><img src="dependencies/img/icon/google-play.webp" alt="Image">
+                                        GET IT ON <span>Google Play</span></a>
+                                    <a href="index.html"><img src="dependencies/img/icon/apple-store.webp" alt="Image">Download on The <span>App Store</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="dependencies/img/app/app.webp" alt="Image" class="app-img">
+                </div>
+            </div>
+        </div>
+        <!-- App Section End -->

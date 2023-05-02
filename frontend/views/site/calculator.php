@@ -4,7 +4,7 @@
 
 use yii\helpers\Html;
 
-$this->title = 'Our-team';
+$this->title = 'Calculator';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <header class="header-wrap header-one">
@@ -67,8 +67,8 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand" href="index.html">
-                            <img class="logo-light" src="assets/img/logo-white.webp" alt="logo">
-                            <img class="logo-dark" src="assets/img/logo-white.webp" alt="logo">
+                            <img class="logo-light" src="dependencies/img/logo-white.webp" alt="logo">
+                            <img class="logo-dark" src="dependencies/img/logo-white.webp" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse main-menu-wrap" id="navbarSupportedContent">
                             <div class="menu-close d-lg-none">
@@ -296,7 +296,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <button type="button" class="close-popup"> <i class="ri-close-fill"></i> </button>
                 <div class="comp-logo">
                     <a href="index.html"> 
-                        <img src="assets/img/logo-white.webp" alt="Image">
+                        <img src="dependencies/img/logo-white.webp" alt="Image">
                     </a>
                 </div>
                 <p class="comp-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
@@ -395,7 +395,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     </div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="calculator-bg">
-                            <img src="assets/img/bg-2.webp" alt="Image">
+                            <img src="dependencies/img/bg-2.webp" alt="Image">
                             <a class="play-now" data-fancybox="" href="https://www.youtube.com/watch?v=BJoVxpAZb_E">
                                 <ion-icon name="play"></ion-icon>
                                 <span class="ripple"></span>
@@ -411,8 +411,8 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="app-wrap">
             <div class="container">
                 <div class="app-box bg_ash">
-                    <img src="assets/img/app/app-shape-1.webp" alt="Image" class="app-shape-one">
-                    <img src="assets/img/app/app-shape-2.webp" alt="Image" class="app-shape-two">
+                    <img src="dependencies/img/app/app-shape-1.webp" alt="Image" class="app-shape-one">
+                    <img src="dependencies/img/app/app-shape-2.webp" alt="Image" class="app-shape-two">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="app-content">
@@ -422,14 +422,14 @@ $this->params['breadcrumbs'][] = $this->title;
                                     <p>It is a long established fact that reader will be distracted by the dolore</p>
                                 </div>
                                 <div class="app-btn">
-                                    <a href="index.html"><img src="assets/img/icon/google-play.webp" alt="Image">
+                                    <a href="index.html"><img src="dependencies/img/icon/google-play.webp" alt="Image">
                                         GET IT ON <span>Google Play</span></a>
-                                    <a href="index.html"><img src="assets/img/icon/apple-store.webp" alt="Image">Download on The <span>App Store</span></a>
+                                    <a href="index.html"><img src="dependencies/img/icon/apple-store.webp" alt="Image">Download on The <span>App Store</span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <img src="assets/img/app/app.webp" alt="Image" class="app-img">
+                    <img src="dependencies/img/app/app.webp" alt="Image" class="app-img">
                 </div>
             </div>
         </div>

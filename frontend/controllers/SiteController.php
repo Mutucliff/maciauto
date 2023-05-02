@@ -145,30 +145,79 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+    public function actionAlllistings()
+    {
+        return $this->render('alllistings');
+    }
+    public function actionAddlistings()
+    {
+        return $this->render('addlistings');
+    }
+    public function actionListingdetails()
+    {
+        return $this->render('listingdetails');
+    }
+    // public function actionServives()
+    // {
+    //     return $this->render('services');
+    // }
+    public function actionServicedetails()
+    {
+        return $this->render('servicedetails');
+    }
+    public function actionOurservices()
+    {
+        return $this->render('ourservices');
+    }
+    public function actionOurteam()
+    {
+        return $this->render('ourteam');
+    }
+    // public function actionDealer()
+    // {
+    //     return $this->render('dealer');
+    // }
+    public function actionDealerdetails()
+    {
+        return $this->render('dealerdetails');
+    }
+    public function actionTopdealers()
+    {
+        return $this->render('topdealers');
+    }
+    public function actionCalculator()
+    {
+        return $this->render('calculator');
+    }
+    public function actionFaq()
+    {
+        return $this->render('faq');
+    }
+    public function actionPricingplan()
+    {
+        return $this->render('pricingplan');
+    }
+    public function actionTestimonials()
+    {
+        return $this->render('testimonials');
+    }
+    public function actionTermsofservice()
+    {
+        return $this->render('termsofservice');
+    }
+    public function actionPrivacypolicy()
+    {
+        return $this->render('privacypolicy');
+    }
+    public function actionError404page()
+    {
+        return $this->render('error404page');
+    }
     public function actionContact()
     {
         return $this->render('contact');
     }
-    public function actionServives()
-    {
-        return $this->render('services');
-    }
-    public function actionServicedetails()
-    {
-        return $this->render('our-services');
-    }
-    public function actionOurservices()
-    {
-        return $this->render('service-details');
-    }
-    public function actionOurteam()
-    {
-        return $this->render('our-team');
-    }
-    public function actioCalculator()
-    {
-        return $this->render('calculator');
-    }
+
 
 
 

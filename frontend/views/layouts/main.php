@@ -134,19 +134,19 @@ AppAsset::register($this);
                                             <a href="<?= Yii::$app->urlManager->createUrl(['/site/about'])?>" class="nav-link">About Us</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">
+                                            <a href="<?= Yii::$app->urlManager->createUrl(['/site/listings'])?>" class="nav-link">
                                                 Listings
                                                 <i class="flaticon-down-arrow"></i>
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item">
-                                                    <a href="listings.html" class="nav-link">All Listings</a>
+                                                    <a href="<?= Yii::$app->urlManager->createUrl(['/site/alllistings'])?>" class="nav-link">All Listings</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="add-listing.html" class="nav-link">Add Listings</a>
+                                                    <a href="<?= Yii::$app->urlManager->createUrl(['/site/addlistings'])?>" class="nav-link">Add Listings</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="listing-details.html" class="nav-link">Listing Details</a>
+                                                    <a href="<?= Yii::$app->urlManager->createUrl(['/site/listingdetails'])?>" class="nav-link">Listing Details</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -157,50 +157,50 @@ AppAsset::register($this);
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item">
-                                                    <a href="<?= Yii::$app->urlManager->createUrl(['/site/our-services'])?>" class="nav-link">Our Services</a>
+                                                    <a href="<?= Yii::$app->urlManager->createUrl(['/site/ourservices'])?>" class="nav-link">Our Services</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="<?= Yii::$app->urlManager->createUrl(['/site/service-details'])?>" class="nav-link">Service-Details</a>
+                                                    <a href="<?= Yii::$app->urlManager->createUrl(['/site/servicedetails'])?>" class="nav-link">Service-Details</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">
+                                            <a href=""<?= Yii::$app->urlManager->createUrl(['/site/dealer'])?> class="nav-link">
                                                 Dealer
                                                 <i class="flaticon-down-arrow"></i>
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item">
-                                                    <a href="dealers.html" class="nav-link">Top Dealers</a>
+                                                    <a href="<?= Yii::$app->urlManager->createUrl(['/site/top-dealers'])?>" class="nav-link">Top Dealers</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="dealer-details.html" class="nav-link">Dealer Details</a>
+                                                    <a href="<?= Yii::$app->urlManager->createUrl(['/site/dealerdetails'])?>" class="nav-link">Dealer Details</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="<?= Yii::$app->urlManager->createUrl(['/site/our-team'])?>" class="nav-link">Our Team</a>
+                                            <a href="<?= Yii::$app->urlManager->createUrl(['/site/ourteam'])?>" class="nav-link">Our Team</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="<?= Yii::$app->urlManager->createUrl(['/site/calculator'])?>" class="nav-link">Calculator</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="faq.html" class="nav-link">FAQ</a>
+                                            <a href="<?= Yii::$app->urlManager->createUrl(['/site/faq'])?>" class="nav-link">FAQ</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="pricing-plan.html" class="nav-link">Pricing Plan</a>
+                                            <a href="<?= Yii::$app->urlManager->createUrl(['/site/pricingplan'])?>" class="nav-link">Pricing Plan</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="testimonials.html" class="nav-link">Testimonials</a>
+                                            <a href="<?= Yii::$app->urlManager->createUrl(['/site/testimonials'])?>" class="nav-link">Testimonials</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="terms-of-service.html" class="nav-link">Terms of Service</a>
+                                            <a href="<?= Yii::$app->urlManager->createUrl(['/site/termsofservice'])?>" class="nav-link">Terms of Service</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
+                                            <a href="<?= Yii::$app->urlManager->createUrl(['/site/privacypolicy'])?>" class="nav-link">Privacy Policy</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="error-404.html" class="nav-link">404 Error Page</a>
+                                            <a href="<?= Yii::$app->urlManager->createUrl(['/site/error404page'])?>" class="nav-link">404 Error Page</a>
                                         </li>
                                     </ul>
                                 </li>
